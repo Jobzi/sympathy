@@ -4,38 +4,38 @@ import { Camera, Video, CalendarDays } from 'lucide-react';
 const services = [
   {
     icon: Camera,
-    title: 'Photography',
-    description: 'Professional photography services for all occasions. We specialize in capturing genuine emotions and creating timeless memories with our unique artistic vision.',
+    title: 'Fotografía',
+    description: 'Servicios de fotografía profesional para todas las ocasiones. Nos especializamos en capturar emociones genuinas y crear recuerdos eternos con nuestra visión artística única.',
     features: [
-      'Portrait Sessions',
-      'Wedding Photography',
-      'Commercial Shoots',
-      'Fashion Photography',
-      'Product Photography'
+      'Sesiones de Retrato',
+      'Fotografía de Bodas',
+      'Sesiones Comerciales',
+      'Fotografía de Moda',
+      'Fotografía de Productos'
     ]
   },
   {
     icon: Video,
-    title: 'Videography',
-    description: 'Cinematic video production that tells your story. From concept to final edit, we create compelling visual narratives that engage and inspire.',
+    title: 'Videografía',
+    description: 'Producción de vídeo cinematográfico que cuenta su historia. Desde el concepto hasta el montaje final, creamos narrativas visuales convincentes que enganchan e inspiran.',
     features: [
-      'Wedding Films',
-      'Corporate Videos',
-      'Music Videos',
-      'Event Coverage',
-      'Aerial Videography'
+      'Películas de Bodas',
+      'Videos Corporativos',
+      'Videos Musicales',
+      'Cobertura de Eventos',
+      'Videografía Aérea'
     ]
   },
   {
     icon: CalendarDays,
-    title: 'Events',
-    description: 'Complete event coverage with both photography and video services. We ensure every significant moment is captured with precision and creativity.',
+    title: 'Eventos',
+    description: 'Cobertura completa de eventos con servicios de fotografía y vídeo. Nos aseguramos de que cada momento importante sea capturado con precisión y creatividad.',
     features: [
-      'Corporate Events',
-      'Social Gatherings',
-      'Concert Photography',
-      'Sports Events',
-      'Fashion Shows'
+      'Eventos Corporativos',
+      'Reuniones Sociales',
+      'Fotografía de Conciertos',
+      'Eventos Deportivos',
+      'Desfiles de Moda'
     ]
   }
 ];
@@ -48,7 +48,7 @@ const Services: React.FC = () => {
           Our <span className="font-medium">Services</span>
         </h2>
         <p className="text-gray-600 text-center mb-16 max-w-2xl mx-auto">
-          We offer comprehensive visual solutions tailored to your needs, combining technical excellence with creative vision
+          Ofrecemos soluciones visuales integrales adaptadas a sus necesidades, combinando excelencia técnica con visión creativa
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

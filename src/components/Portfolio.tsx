@@ -2,34 +2,34 @@ import React from 'react';
 
 const portfolioItems = [
   {
-    category: 'Wedding',
+    category: 'Bodas',
     image: 'https://images.pexels.com/photos/1589216/pexels-photo-1589216.jpeg',
-    title: 'Timeless Love Stories'
+    title: 'Historias de amor eternas'
   },
   {
-    category: 'Portrait',
+    category: 'Retratos',
     image: 'https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg',
-    title: 'Natural Beauty'
+    title: 'Belleza natural'
   },
   {
-    category: 'Commercial',
+    category: 'Comercial',
     image: 'https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg',
     title: 'Brand Excellence'
   },
   {
-    category: 'Event',
+    category: 'Eventos',
     image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg',
-    title: 'Special Moments'
+    title: 'Excelencia de marca'
   },
   {
     category: 'Fashion',
     image: 'https://images.pexels.com/photos/2887718/pexels-photo-2887718.jpeg',
-    title: 'Style & Grace'
+    title: 'Estilo y Gracia'
   },
   {
     category: 'Video',
     image: 'https://images.pexels.com/photos/2773498/pexels-photo-2773498.jpeg',
-    title: 'Cinematic Stories'
+    title: 'Historias de cine'
   }
 ];
 
@@ -38,11 +38,10 @@ const Portfolio: React.FC = () => {
     <section id="portfolio" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
-          Our <span className="font-medium">Portfolio</span>
+          Nuestro <span className="font-medium">Trabajo</span>
         </h2>
         <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-          Explore our diverse collection of visual storytelling, from intimate weddings 
-          to dynamic commercial projects
+          Explore nuestra variada colección de narraciones visuales, desde bodas íntimas hasta dinámicos proyectos comerciales.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

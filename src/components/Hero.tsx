@@ -4,15 +4,15 @@ import { ChevronDown } from 'lucide-react';
 const slides = [
   {
     image: 'https://images.pexels.com/photos/3379244/pexels-photo-3379244.jpeg',
-    title: 'Capturing moments that last forever',
+    title: 'Capturando momentos que duran para siempre',
   },
   {
     image: 'https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg',
-    title: 'Creating visual stories with passion',
+    title: 'Creando historias visuales con pasión',
   },
   {
     image: 'https://images.pexels.com/photos/2901581/pexels-photo-2901581.jpeg',
-    title: 'Where art meets technical excellence',
+    title: 'Donde el arte se une a la excelencia técnica',
   }
 ];
 
@@ -56,13 +56,13 @@ const Hero: React.FC = () => {
           {slides[currentSlide].title}
         </h1>
         <p className="text-white/90 text-lg md:text-xl mb-8 max-w-2xl transition-all duration-700 delay-200">
-          Premium photography and videography services for your special moments
+          Servicios de fotografía y videografía de alta calidad para tus momentos especiales
         </p>
-        <button 
+        {/* <button 
           className="bg-orange-400 text-black px-8 py-3 rounded-full text-sm uppercase tracking-widest font-medium hover:bg-white transition-all duration-300"
         >
           Book a Session
-        </button>
+        </button> */}
       </div>
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center">

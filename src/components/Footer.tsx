@@ -5,19 +5,19 @@ const socialLinks = [
   {
     icon: Instagram,
     label: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/wilmer_troya_/',
     color: 'hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500'
   },
   {
     icon: Facebook,
     label: 'Facebook',
-    href: '#',
+    href: 'https://www.facebook.com/WDDanny241',
     color: 'hover:bg-blue-600'
   },
   {
     icon: Youtube,
     label: 'YouTube',
-    href: '#',
+    href: 'https://www.youtube.com/@sympathystudio',
     color: 'hover:bg-red-600'
   },
   {
