@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center space-x-3">
             <img 
-              src="/Sympathy (Foto de perfil de Facebook).zip - 6.svg" 
+              src="/sp-w.svg" 
               alt="Sympathy Studio Logo" 
               className="w-8 h-8"
             />

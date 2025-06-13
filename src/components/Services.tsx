@@ -82,10 +82,6 @@ const Services: React.FC = () => {
                   </li>
                 ))}
               </ul>
-
-              <button className="w-full mt-8 py-3 px-6 bg-black text-white rounded-full hover:bg-orange-400 transition-colors duration-300 text-sm uppercase tracking-wider">
-                Learn More
-              </button>
             </div>
           ))}
         </div>

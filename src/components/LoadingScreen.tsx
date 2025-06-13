@@ -13,7 +13,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ isLoading }) => {
         {/* Logo and Brand Name */}
         <div className="flex items-center justify-center space-x-3 mb-8">
           <img 
-            src="/Sympathy (Foto de perfil de Facebook).zip - 6.svg" 
+            src="/sp-w.svg" 
             alt="Sympathy Studio Logo" 
             className="w-12 h-12"
           />
@@ -28,11 +28,6 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ isLoading }) => {
           <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse" style={{ animationDelay: '0.2s' }}></div>
           <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse" style={{ animationDelay: '0.4s' }}></div>
         </div>
-        
-        {/* Loading Text */}
-        <p className="text-white/60 text-sm mt-6 tracking-wide">
-          Loading...
-        </p>
       </div>
     </div>
   );

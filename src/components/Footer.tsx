@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
           {/* Logo and Brand */}
           <div className="flex items-center space-x-3 mb-6">
             <img 
-              src="/Sympathy (Foto de perfil de Facebook).zip - 6.svg" 
+              src="/sp-w.svg" 
               alt="Sympathy Studio Logo" 
               className="w-10 h-10"
             />
