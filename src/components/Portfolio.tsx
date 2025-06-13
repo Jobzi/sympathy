@@ -3,7 +3,7 @@ import React from 'react';
 const portfolioItems = [
   {
     category: 'Bodas',
-    image: 'https://images.pexels.com/photos/1589216/pexels-photo-1589216.jpeg',
+    image: 'https://images.pexels.com/photos/1560303/pexels-photo-1560303.jpeg',
     title: 'Historias de amor eternas'
   },
   {

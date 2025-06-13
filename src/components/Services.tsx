@@ -45,7 +45,7 @@ const Services: React.FC = () => {
     <section id="services" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-light text-center mb-4">
-          Our <span className="font-medium">Services</span>
+          Nuestro <span className="font-medium">Servicios</span>
         </h2>
         <p className="text-gray-600 text-center mb-16 max-w-2xl mx-auto">
           Ofrecemos soluciones visuales integrales adaptadas a sus necesidades, combinando excelencia técnica con visión creativa
