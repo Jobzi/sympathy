@@ -5,6 +5,7 @@ export const siteConfig = {
   description: 'Servicios profesionales de fotografía y videografía en Ecuador. Especialistas en bodas, eventos, retratos y producción audiovisual de alta calidad. Capturamos tus momentos más especiales.',
   url: 'https://sympathystudio.com',
   author: 'Sympathy Studio',
+  brandImage: '/sp-w.svg',
   keywords: [
     'fotografía profesional',
     'videografía',
@@ -38,7 +39,7 @@ export const organizationSchema = {
   "url": siteConfig.url,
   "logo": {
     "@type": "ImageObject",
-    "url": `${siteConfig.url}/sp-w.svg`,
+    "url": `${siteConfig.url}${siteConfig.brandImage}`,
     "width": 400,
     "height": 400
   },
