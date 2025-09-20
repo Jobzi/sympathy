@@ -4,32 +4,38 @@ const portfolioItems = [
   {
     category: 'Bodas',
     image: 'https://images.pexels.com/photos/1560303/pexels-photo-1560303.jpeg',
-    title: 'Historias de amor eternas'
+    title: 'Historias de amor eternas',
+    alt: 'Fotografía profesional de bodas - Pareja en su día especial capturada por Sympathy Studio'
   },
   {
     category: 'Retratos',
     image: 'https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg',
-    title: 'Belleza natural'
+    title: 'Belleza natural',
+    alt: 'Sesión de retrato profesional - Fotografía artística de Sympathy Studio'
   },
   {
     category: 'Comercial',
     image: 'https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg',
-    title: 'Brand Excellence'
+    title: 'Brand Excellence',
+    alt: 'Fotografía comercial profesional - Servicios corporativos de Sympathy Studio'
   },
   {
     category: 'Eventos',
     image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg',
-    title: 'Excelencia de marca'
+    title: 'Excelencia de marca',
+    alt: 'Cobertura fotográfica de eventos - Capturando momentos especiales con Sympathy Studio'
   },
   {
     category: 'Fashion',
     image: 'https://images.pexels.com/photos/2887718/pexels-photo-2887718.jpeg',
-    title: 'Estilo y Gracia'
+    title: 'Estilo y Gracia',
+    alt: 'Fotografía de moda profesional - Sesiones fashion con estilo único por Sympathy Studio'
   },
   {
     category: 'Video',
     image: 'https://images.pexels.com/photos/2773498/pexels-photo-2773498.jpeg',
-    title: 'Historias de cine'
+    title: 'Historias de cine',
+    alt: 'Producción audiovisual profesional - Videografía cinematográfica de Sympathy Studio'
   }
 ];
 
@@ -52,8 +58,9 @@ const Portfolio: React.FC = () => {
             >
               <img
                 src={item.image}
-                alt={item.title}
+                alt={item.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">

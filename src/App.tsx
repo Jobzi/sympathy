@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import LoadingScreen from './components/LoadingScreen';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import Footer from './components/Footer';
+import SEO from './components/SEO';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -46,6 +47,7 @@ function App() {
 
   return (
     <>
+      <SEO url='https://sympathystudio.com' />
       <LoadingScreen isLoading={isLoading} />
       <main className={`min-h-screen transition-opacity duration-500 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
         <Navbar />

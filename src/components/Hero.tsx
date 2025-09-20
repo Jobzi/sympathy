@@ -5,14 +5,17 @@ const slides = [
   {
     image: 'https://images.pexels.com/photos/3379244/pexels-photo-3379244.jpeg',
     title: 'Capturando momentos que duran para siempre',
+    alt: 'Fotografía profesional - Sympathy Studio capturando momentos únicos y especiales'
   },
   {
     image: 'https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg',
     title: 'Creando historias visuales con pasión',
+    alt: 'Videografía cinematográfica - Creando narrativas visuales únicas con Sympathy Studio'
   },
   {
     image: 'https://images.pexels.com/photos/2901581/pexels-photo-2901581.jpeg',
     title: 'Donde el arte se une a la excelencia técnica',
+    alt: 'Estudio de fotografía profesional - Arte y excelencia técnica en cada proyecto'
   }
 ];
 

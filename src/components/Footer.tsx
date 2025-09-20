@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Youtube, Mail } from 'lucide-react';
+import { Instagram, Youtube, Mail, Link } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -9,9 +9,9 @@ const socialLinks = [
     color: 'hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500'
   },
   {
-    icon: Facebook,
-    label: 'Facebook',
-    href: 'https://www.facebook.com/WDDanny241',
+    icon: Link,
+    label: 'Acort.me',
+    href: 'https://acort.me/p/sy_studio',
     color: 'hover:bg-blue-600'
   },
   {
