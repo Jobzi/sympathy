@@ -2,7 +2,7 @@
 
 export const siteConfig = {
   name: 'Sympathy Studio',
-  description: 'Servicios profesionales de fotografía y videografía en España. Especialistas en bodas, eventos, retratos y producción audiovisual de alta calidad. Capturamos tus momentos más especiales.',
+  description: 'Servicios profesionales de fotografía y videografía en Ecuador. Especialistas en bodas, eventos, retratos y producción audiovisual de alta calidad. Capturamos tus momentos más especiales.',
   url: 'https://sympathystudio.com',
   author: 'Sympathy Studio',
   keywords: [
@@ -11,7 +11,7 @@ export const siteConfig = {
     'bodas',
     'eventos',
     'retratos',
-    'fotografía España',
+    'fotografía Ecuador',
     'videografía profesional',
     'sesión fotográfica',
     'producción audiovisual',
@@ -44,7 +44,7 @@ export const organizationSchema = {
   },
   "address": {
     "@type": "PostalAddress",
-    "addressCountry": "ES"
+    "addressCountry": "EC"
   },
   "serviceType": [
     "Fotografía Profesional",
@@ -58,7 +58,7 @@ export const organizationSchema = {
   ],
   "areaServed": {
     "@type": "Country",
-    "name": "España"
+    "name": "Ecuador"
   },
   "contactPoint": {
     "@type": "ContactPoint",
@@ -106,7 +106,7 @@ export const weddingSchema = {
   "description": "Servicios especializados de fotografía y videografía para bodas. Capturamos los momentos más especiales de tu día con un estilo único y profesional.",
   "areaServed": {
     "@type": "Country",
-    "name": "España"
+    "name": "Ecuador"
   }
 };
 
