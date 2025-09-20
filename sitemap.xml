@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sympathystudio.com</loc>
+    <lastmod>{{LASTMOD_DATE}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://sympathystudio.com/sp-w.svg</image:loc>
+      <image:caption>Sympathy Studio - Logo</image:caption>
+      <image:title>Sympathy Studio Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/1560303/pexels-photo-1560303.jpeg</image:loc>
+      <image:caption>Fotografía de bodas - Historias de amor eternas</image:caption>
+      <image:title>Bodas Sympathy Studio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg</image:loc>
+      <image:caption>Fotografía de retratos - Belleza natural</image:caption>
+      <image:title>Retratos Sympathy Studio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg</image:loc>
+      <image:caption>Fotografía comercial - Brand Excellence</image:caption>
+      <image:title>Comercial Sympathy Studio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg</image:loc>
+      <image:caption>Fotografía de eventos - Excelencia de marca</image:caption>
+      <image:title>Eventos Sympathy Studio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/2887718/pexels-photo-2887718.jpeg</image:loc>
+      <image:caption>Fotografía de moda - Estilo y Gracia</image:caption>
+      <image:title>Fashion Sympathy Studio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/2773498/pexels-photo-2773498.jpeg</image:loc>
+      <image:caption>Videografía profesional - Historias de cine</image:caption>
+      <image:title>Video Sympathy Studio</image:title>
+    </image:image>
+  </url>
+</urlset>
