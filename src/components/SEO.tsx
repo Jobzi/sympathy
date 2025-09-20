@@ -26,7 +26,7 @@ const SEO: React.FC<SEOProps> = ({
     title,
     description = siteConfig.description,
     keywords = siteConfig.keywords,
-    image = '/sp-w.svg',
+    image = siteConfig.brandImage,
     url,
     type = 'website',
     author = siteConfig.author,
@@ -62,6 +62,8 @@ const SEO: React.FC<SEOProps> = ({
             <meta property="og:description" content={description} />
             <meta property="og:image" content={fullImage} />
             <meta property="og:image:alt" content={title || siteConfig.name} />
+            <meta property="og:image:width" content="400" />
+            <meta property="og:image:height" content="400" />
             <meta property="og:url" content={fullUrl} />
             <meta property="og:type" content={type} />
             <meta property="og:locale" content={locale} />
@@ -83,6 +85,10 @@ const SEO: React.FC<SEOProps> = ({
             <meta name="apple-mobile-web-app-title" content={siteName} />
             <meta name="apple-mobile-web-app-capable" content="yes" />
             <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+            
+            {/* Brand/Logo Meta Tags */}
+            <link rel="shortcut icon" href={fullImage} />
+            <link rel="apple-touch-icon" href={fullImage} />
             
             {/* Geo Tags for Local SEO */}
             <meta name="geo.region" content="EC" />
