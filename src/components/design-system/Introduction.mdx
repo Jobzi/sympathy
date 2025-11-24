@@ -1,0 +1,105 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# Sympathy Studio Design System
+
+Bienvenido a la documentación interactiva del **Sistema de Diseño de Sympathy Studio**.
+
+## 🎨 Acerca del Design System
+
+Este design system fue creado para proporcionar componentes reutilizables, consistentes y bien documentados para el sitio web de Sympathy Studio, un estudio de fotografía y videografía profesional.
+
+## 📦 Componentes Disponibles
+
+### Layout Components
+- **Container** - Contenedor responsivo con anchos máximos configurables
+- **Section** - Secciones con fondos y espaciado personalizable
+- **Grid** - Sistema de cuadrícula responsivo (1-12 columnas)
+
+### Typography
+- **SectionHeading** - Encabezados de sección con título, highlight y subtítulo
+
+### UI Components
+- **Button** - Botones con 4 variantes y 3 tamaños
+- **Badge** - Etiquetas para categorías
+- **Card** - Tarjetas con efectos hover y gradiente animado
+- **ImageCard** - Tarjetas de imagen con overlay
+- **IconBox** - Contenedor para iconos de Lucide
+- **FeatureList** - Listas con bullets personalizados
+- **Overlay** - Overlays oscuros o con gradiente
+
+### Navigation
+- **Logo** - Logo de Sympathy Studio
+- **NavLink** - Enlaces de navegación con estados
+
+### Interactive
+- **Carousel** - Carrusel con auto-play e indicadores
+- **ScrollIndicator** - Indicador de scroll animado
+
+## 🎯 Características
+
+- ✅ **TypeScript completo** - Todos los componentes están tipados
+- ✅ **Totalmente responsivos** - Mobile-first design
+- ✅ **Tailwind CSS** - Integración perfecta
+- ✅ **Accesibilidad** - ARIA labels y semántica correcta
+- ✅ **Documentación completa** - Stories interactivas para cada componente
+
+## 🚀 Uso Rápido
+
+```tsx
+import {
+  Section,
+  Container,
+  SectionHeading,
+  Grid,
+  Card,
+  Button
+} from './components/design-system';
+
+function MyComponent() {
+  return (
+    <Section background="white" padding="lg">
+      <Container>
+        <SectionHeading
+          title="Mi"
+          highlight="Sección"
+          subtitle="Descripción de la sección"
+        />
+        <Grid cols={'{{ default: 1, md: 3 }}'} gap="md">
+          <Card hover gradient>
+            <h3>Contenido</h3>
+            <Button variant="primary">Click me</Button>
+          </Card>
+        </Grid>
+      </Container>
+    </Section>
+  );
+}
+```
+
+## 🎨 Paleta de Colores
+
+- **Primary**: Orange 400 (#fb923c)
+- **Backgrounds**: White, Black, Gray 50
+- **Text**: Gray 900, Gray 600, White
+
+## 📖 Navegación
+
+Usa la barra lateral para explorar todos los componentes. Cada componente tiene:
+- **Docs** - Documentación automática con props
+- **Canvas** - Vista interactiva del componente
+- **Controls** - Controles para modificar props en tiempo real
+
+## 🔧 Desarrollo
+
+Este design system está construido con:
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- Storybook 8
+
+---
+
+**Creado para Sympathy Studio** 📸🎥
