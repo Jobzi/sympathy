@@ -5,7 +5,6 @@
  * para crear una sección completa de servicios.
  */
 
-import React from 'react';
 import { Camera, Video, CalendarDays } from 'lucide-react';
 import {
     Section,

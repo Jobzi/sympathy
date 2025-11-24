@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Youtube, Mail, Link } from 'lucide-react';
+import { Section, Container, Logo } from './design-system';
 
 const socialLinks = [
   {
@@ -30,25 +31,16 @@ const socialLinks = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black py-12">
-      <div className="container mx-auto px-4">
+    <Section background="black" padding="md">
+      <Container>
         <div className="flex flex-col items-center">
           {/* Logo and Brand */}
-          <div className="flex items-center space-x-3 mb-6">
-            <img 
-              src="/sp-w.svg" 
-              alt="Sympathy Studio Logo" 
-              className="w-10 h-10"
-            />
-            <span className="text-white text-xl font-light tracking-wider">
-              SYMPATHY <span className="font-medium">STUDIO</span>
-            </span>
-          </div>
-          
+          <Logo size="lg" showText theme="dark" className="mb-6 justify-center" />
+
           <h2 className="text-2xl text-white font-light mb-8">
             Connect with <span className="font-medium">Us</span>
           </h2>
-          
+
           <div className="flex space-x-4 mb-8">
             {socialLinks.map((social, index) => (
               <a
@@ -68,8 +60,8 @@ const Footer: React.FC = () => {
             © {new Date().getFullYear()} Sympathy Studio. All rights reserved.
           </p>
         </div>
-      </div>
-    </footer>
+      </Container>
+    </Section>
   );
 };
 

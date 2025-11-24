@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Logo, NavLink } from './design-system';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,42 +19,35 @@ const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const navItems = ['Home', 'Portfolio', 'Services'];
+
   return (
-    <nav 
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black/90 backdrop-blur-md py-4' : 'bg-transparent py-6'
-      }`}
+    <nav
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black/90 backdrop-blur-md py-4' : 'bg-transparent py-6'
+        }`}
     >
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
-          <a href="#" className="flex items-center space-x-3">
-            <img 
-              src="/sp-w.svg" 
-              alt="Sympathy Studio Logo" 
-              className="w-8 h-8"
-            />
-            <span className="text-white text-xl font-light tracking-wider">
-              SYMPATHY <span className="font-medium">STUDIO</span>
-            </span>
-          </a>
+          <Logo size="md" showText theme="dark" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            {['Home', 'Portfolio', 'Services'].map((item) => (
-              <a 
-                key={item} 
+            {navItems.map((item) => (
+              <NavLink
+                key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-white hover:text-orange-400 transition-colors tracking-wide text-sm"
+                theme="dark"
               >
                 {item}
-              </a>
+              </NavLink>
             ))}
           </div>
 
           {/* Mobile Navigation Toggle */}
-          <button 
+          <button
             className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -61,22 +55,22 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Mobile Navigation Menu */}
-      <div 
-        className={`md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-md transition-all duration-300 ${
-          isOpen ? 'max-h-screen py-4' : 'max-h-0 py-0 overflow-hidden'
-        }`}
+      <div
+        className={`md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-md transition-all duration-300 ${isOpen ? 'max-h-screen py-4' : 'max-h-0 py-0 overflow-hidden'
+          }`}
       >
         <div className="container mx-auto px-4">
           <div className="flex flex-col space-y-4">
-            {['Home', 'Portfolio', 'Services'].map((item) => (
-              <a 
-                key={item} 
+            {navItems.map((item) => (
+              <NavLink
+                key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-white hover:text-orange-400 transition-colors py-2 text-center text-lg"
+                theme="dark"
+                className="py-2 text-center text-lg"
                 onClick={() => setIsOpen(false)}
               >
                 {item}
-              </a>
+              </NavLink>
             ))}
           </div>
         </div>
